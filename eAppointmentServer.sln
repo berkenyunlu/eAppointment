@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAppointmentServer.Domain", "eAppointmentServer.Domain\eAppointmentServer.Domain.csproj", "{E9372EEA-6601-454D-BCD9-BC0597E98D92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eAppointmentServer.Domain", "eAppointmentServer.Domain\eAppointmentServer.Domain.csproj", "{E9372EEA-6601-454D-BCD9-BC0597E98D92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAppointmentServer.Application", "eAppointmentServer.Application\eAppointmentServer.Application.csproj", "{93FB2C7D-BD0F-4495-8C79-6A7EE90BC319}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eAppointmentServer.Application", "eAppointmentServer.Application\eAppointmentServer.Application.csproj", "{93FB2C7D-BD0F-4495-8C79-6A7EE90BC319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAppointmentServer.Infrastructure", "eAppointmentServer.Infrastructure\eAppointmentServer.Infrastructure.csproj", "{5F3ADE7D-DB93-4D11-87C5-E082C343FC80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{93FB2C7D-BD0F-4495-8C79-6A7EE90BC319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93FB2C7D-BD0F-4495-8C79-6A7EE90BC319}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93FB2C7D-BD0F-4495-8C79-6A7EE90BC319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3ADE7D-DB93-4D11-87C5-E082C343FC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3ADE7D-DB93-4D11-87C5-E082C343FC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3ADE7D-DB93-4D11-87C5-E082C343FC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3ADE7D-DB93-4D11-87C5-E082C343FC80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
