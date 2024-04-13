@@ -1,0 +1,12 @@
+@WebAPI_HostAddress = http://localhost:5018
+
+POST {{WebAPI_HostAddress}}/api/Auth/Login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "userNameOrEmail":"admin",
+  "password":"12"
+}
+
+###
